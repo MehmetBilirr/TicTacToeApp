@@ -133,6 +133,7 @@ class GameViewController: UIViewController {
             let box = getBox(name: name.rawValue)
             box.image = nil
         }
+        
         lastValue = "o"
         playerChoices = []
         computerChoices = []
